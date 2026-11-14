@@ -73,7 +73,7 @@ with mlflow.start_run():
     # Show the model's actual performance.
     print("Model metrics:", metrics)
     # Set the model location for Streamlit.
-    model_path = "week_3_mls/deployment/best_superkart_model_v1.joblib"
+    model_path = "week_4_mls/deployment/best_superkart_model_v1.joblib"
     # Save the trained model to a file.
     joblib.dump(best_model, model_path)
     # Save the model as an MLflow artifact.
