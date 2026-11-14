@@ -1,7 +1,7 @@
 # Import pandas to read the sales data.
 import pandas as pd
 # Set the location of the uploaded dataset.
-RAW_PATH = "/content/SuperKart (1).csv"
+RAW_PATH = "week_4_mls/data/SuperKart (1).csv"
 # Read the SuperKart dataset.
 df = pd.read_csv(RAW_PATH)
 # List the columns expected in the dataset.
