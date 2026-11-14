@@ -3,7 +3,7 @@ import pandas as pd
 # Import the same splitting function as class.
 from sklearn.model_selection import train_test_split
 # Read the SuperKart dataset.
-df = pd.read_csv("/content/SuperKart (1).csv")
+df = pd.read_csv("week_4_mls/data/SuperKart (1).csv")
 # Remove product and store identifiers.
 df.drop(columns=["Product_Id", "Store_Id"], inplace=True)
 # Separate input columns from sales.
